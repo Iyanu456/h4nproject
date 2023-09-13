@@ -1,68 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,800;6..12,900&display=swap");
+
 body {
-    background: #f5d9d5;
-    font-family: "Nunito", sans-serif;
+	background: #fbfbfb;
+	font-family: "Nunito", sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .blurb h2 {
-   color: #EA1C2C;
-   font-weight: 100;
-   font-size: 2.5rem;
+    font-family: 'Lora';
+	font-weight: 550;
+	font-size: 4rem;
 }
 
 .blurb p {
-    color: #f498b8;
-    font-weight: 100;
-    font-size: 1.125rem;
-    line-height: 2;
+	font-family: 'Jost';
+	font-weight: 100;
+	font-size: 1.125rem;
+	line-height: 2;
 }
 
 .content {
-    margin-top: 100px;
-    margin-bottom: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 #mainNavbar {
-    font-size: 1.5rem;
-    font-weight: 100;    
+	font-size: 1.5rem;
+	font-weight: 100;
 }
 
 #mainNavbar .nav-link {
-    color: white;
+	color: white;
 }
 
 #mainNavbar .nav-link:hover {
-    color: #EA1C2C;
+	color: #ea1c2c;
 }
 
-#mainNavbar .navbar-brand {
-    color: #EA1C2C;
-    font-size: 1.5rem;
+#mainNavbar .navbar-brand, .nav-link {
+    font-family: 'Jost';
+	font-size: 1.1rem;
 }
 
 #headingGroup span {
-    color: #EA1C2C;
+	color: #ea1c2c;
 }
 
-#headingGroup h1 {
-    font-weight: 100;
-    font-size: 4rem;
+#headingGroup h3 {
+    width: 70%;
+    font-family: 'Lora';
+	font-weight: 500;
+	font-size: 4rem;
+    color: #fc8332;
+}
+
+#headingGroup p {
+    width: fit-content;
+    font-family: 'Jost';
+    max-width: 70%;
 }
 
 .navbar.scrolled {
-    background: rgb(222,192,222);
-    transition: background 500ms;
+	background: rgb(90, 103, 126);
+	transition: background 500ms;
+}
+
+.article-heading {
+    font-family: 'Lora';
+    font-size: 3rem;
+}
+
+#blue {
+    color: #0e68c8;
+}
+
+.profile-img {
+	height: 280px;
+	width: 280px;
 }
 
 @media (max-width: 1200px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 3rem;
-    }
-    .blurb h2 {
-        font-size: 2rem;
-    }
+	#headingGroup h1 {
+		font-weight: 100;
+		font-size: 3rem;
+	}
+	.blurb h2 {
+		font-size: 2rem;
+	}
 }
-
-
-
-
