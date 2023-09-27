@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,800;6..12,900&display=swap");
 
+*{
+	list-style: none;
+}
 body {
 	background: #fbfbfb;
 	font-family: "Nunito", sans-serif;
@@ -77,8 +80,16 @@ body {
 }
 
 .profile-img {
-	height: 280px;
-	width: 280px;
+	border: 10px solid white;
+	max-height: 250px;
+	max-width: 250px;
+}
+
+.group {
+	padding: 1.5em;
+	border-radius: 30px;
+	background: #f3f3f3;
+	box-shadow: rgba(16, 16, 16, 0.17) -3.2px 3.2px 3.2px;
 }
 
 @media (max-width: 1200px) {
